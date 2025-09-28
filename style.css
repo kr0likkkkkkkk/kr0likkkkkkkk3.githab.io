@@ -15,7 +15,7 @@ body {
 header {
     background-color: #ac4ed8;
     width: 100%;
-    height: 150px;
+    height: 70px;
     margin-bottom: 25px;
     top: 0;
 }
@@ -29,7 +29,7 @@ header {
 #center {
     width: 100%;
     margin: auto;
-    background-color: #000000;
+    background-color: #6495ED;
     margin-bottom: 25px;
     flex: 1;
 }
@@ -71,10 +71,10 @@ header {
 }
 
 #logo {
-    width: 100px;
-    height: 100px;
-    margin: 20px;
-    float: right;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    float: left;
     animation: log 3s;
 }
 
@@ -134,16 +134,15 @@ footer {
 
 @media (min-width: 767px) {
 
-    header{
+    header {
         position: relative;
-        background-color: #6495ED;
+        background-color: #f8d3e2;
         width: 100%;
         height: 140px;
-        margin-bottom: 25px;
-        top: 0;
+        float: left;
     }
-    
-    nav{
+
+    nav {
         z-index: 0;
         right: 0;
         top: 0;
@@ -155,7 +154,7 @@ footer {
         flex-direction: row;
     }
 
-    #tablic{
+    #tablic {
         margin: 10;
         max-width: 960px;
         width: 100%;
@@ -163,36 +162,38 @@ footer {
         margin-top: 25px;
         margin-bottom: 25px;
         border: 1px solid grey;
-        color: #000124;
+        color: #fff;
         text-align: center;
     }
-    #forma{
+
+    #forma {
         max-width: 960px;
         width: 100%;
         margin: auto;
-        background-color: #6495ED;
+        background-color: #ee629a;
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
-    #center{
+    #center {
         max-width: 960px;
         width: 80%;
         margin: auto;
-        background-color: #6495ED;
+        background-color: #f8d3e2;
         margin-bottom: 25px;
-        margin-top: 25px; 
+        margin-top: 25px;
         order: 1;
     }
 
-    .name{
+    /* имя сайта*/
+    .name {
         margin-top: 56px;
         float: left;
-        color: #bdc4d4;
+        color: #000000;
         font-size: xx-large;
     }
 
-    #logo{
+    #logo {
         width: 100px;
         height: 100px;
         margin: 20px;
@@ -200,14 +201,19 @@ footer {
         margin-top: 10px;
     }
 
-    .link{
-        padding-left:30px ;
+    .link {
+        padding-left: 30px;
         font-size: 25px;
-        color: #bdc4d4;
+        color: #000000;
         font-family: 'Century Gothic', cursive;
     }
 
-    #header-top{
+    .list{
+    padding-left: 35px;
+    margin-top: auto; 
+}
+
+    #header-top {
         margin-bottom: 20px;
         display: flex;
         align-items: center;
@@ -216,13 +222,14 @@ footer {
     }
 
     #order {
-    display: block;
-    .tablic{
-        order: 0;
+        display: block;
+
+        .tablic {
+            order: 0;
+        }
+
+        #center {
+            order: 0;
+        }
     }
-    #center{
-        order: 0;
-    }
-    }
-    
 }
