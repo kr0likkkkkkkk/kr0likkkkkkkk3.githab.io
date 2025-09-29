@@ -31,7 +31,7 @@ header{
     margin: auto;
     background-color: #ac4ed861;
     margin-bottom: 25px;
-    margin-top: 250px;
+    margin-top: 100px;
     flex: 1;
     
 }
@@ -63,7 +63,7 @@ header{
     margin-top: 30px;
     margin: 10;
     float: right;
-    color: #bdc4d4;
+    color: #000000;
     font-size: large;
     margin-left: 20px;
 }
@@ -81,7 +81,7 @@ nav{
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #d264ed;
+    background-color: #ec82dc70;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -90,8 +90,8 @@ nav{
 .nav-link{
     padding-left:30px ;
     font-size: 25px;
-    color: #011427;
-    font-family: Courier New, monospace;
+    color: #000000;
+    font-family: Courier New;
 }
 
 #tablic{
@@ -99,28 +99,28 @@ nav{
     width: 100%;
     margin-top: 145px;
     margin-bottom: 25px;
-    border: 1px solid grey;
-    color: rgba(253, 124, 247, 0.479);
+    border: 1px solid #f7f3f3;
+    color: #f573d4;
     text-align: center;
     order: -1;
 }
 
 th {
-   border: 1px solid grey;
+   border: 1px solid #000000;
 }
 
 td {
-   border: 1px solid grey;
+   border: 1px solid #000000;
 }
 
 .chet{
-    background: rgba(253, 124, 247, 0.479);
+    background: #d370f1;
 }
 
 .link{
     padding-left:30px ;
     font-size: 25px;
-    color: #bdc4d4;
+    color: #e2ebff;
     font-family: 'Century Gothic', cursive;
     display: flex;
 }
