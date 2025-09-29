@@ -144,15 +144,6 @@ footer{
     float: left;
     color: #000000;
 }
-
-.name3{
-        margin-top: 10px;
-        margin-bottom: 35px;
-        float: left;
-        color: #000000;
-        font-size: large;
-    }
-
 @media (min-width: 767px) {
 
     header {
