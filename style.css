@@ -30,9 +30,13 @@ header {
     width: 100%;
     margin: auto;
     background-color: #bb53a430;
-    margin-top: 10px;
     margin-bottom: 10px;
     flex: 1;
+}
+
+#order{
+    display:flex;
+    flex-direction: column;
 }
 
 .list {
