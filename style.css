@@ -32,21 +32,20 @@ header {
     flex-direction: column;
 }
 
-/* Мобильная версия - порядок элементов */
 #order .section-table {
-    order: 1; /* Таблица первой */
+    order: 1;
 }
 
 #order .section-links {
-    order: 2; /* Список ссылок вторым */
+    order: 2; 
 }
 
 #order .section-form {
-    order: 3; /* Форма третьей */
+    order: 3;
 }
 
 #order .section-cats {
-    order: 4; /* Котики четвертыми */
+    order: 4;
 }
 
 .list {
@@ -213,9 +212,13 @@ footer {
         margin-bottom: 20px;
     }
 
-    /* Десктопная версия - обычный порядок */
     #order {
-        display: block; /* Возвращаем обычный поток */
+        display: block;
+        section-table {order: 2;}
+        section-links {order: 1;}
+        section-form {order: 3;}
+        section-cats {order: 4;}
+        
     }
 
     .name {
