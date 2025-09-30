@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(https://i.pinimg.com/originals/10/44/3c/10443cf8d294d25c540d95e849728f75.png);
+    background-image: url(fon1.jpg);
     background-repeat: repeat;
     background-size: contain;
     width: 100vw;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #ac4ed861;
+    background-color: #ffd1e0bd;
     width: 100%;
     height: 100px;
     margin-bottom: 25px;
@@ -29,8 +29,8 @@ header {
 #center {
     width: 100%;
     margin: auto;
-    background-color: #ac4ed861;
-    margin-top: 35px;
+    background-color: #bb53a430;
+    margin-top: 10px;
     margin-bottom: 10px;
     flex: 1;
 }
@@ -38,9 +38,18 @@ header {
 #order {
     display: flex;
     flex-direction: column;
-    #center {order: 2;}
-    #tablic {order: 1;}
-    #formam{order: 3;}
+
+    #center {
+        order: 2;
+    }
+
+    #tablic {
+        order: 1;
+    }
+
+    #formam {
+        order: 3;
+    }
 }
 
 .list {
@@ -56,7 +65,7 @@ header {
 #forma {
     width: 100%;
     margin: auto;
-    background-color: #ac4ed861;
+    background-color: #bb53a430;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -84,9 +93,8 @@ nav {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #ec82dc70;
+    background-color: #ff97c152;
     display: flex;
-    width: 100%;
     flex-direction: column;
 }
 
@@ -100,7 +108,7 @@ nav {
 #tablic {
     margin: auto;
     width: 100%;
-    background-color: #ac4ed861;
+    background-color: #bb53a430;
     margin-top: 25px;
     margin-bottom: 25px;
     border: 1px solid #000000;
@@ -110,14 +118,18 @@ nav {
 
 th {
     border: 1px solid #000000;
+    padding-left: 20;
+    padding-right: 20;
 }
 
 td {
     border: 1px solid #000000;
+    padding-right: 20;
+    padding-left: 20;
 }
 
 .chet {
-    background: #d370f1;
+    background: #f782d7b6;
 }
 
 .nechet {
@@ -133,7 +145,7 @@ td {
 }
 
 footer {
-    background-color: #d993ea;
+    background-color: #bb53a430;
     width: 100%;
     height: 30px;
 }
@@ -145,19 +157,15 @@ footer {
     color: #000000;
 }
 
-.name3 {
-    margin-top: 10px;
-    margin-bottom: 35px;
-    float: left;
-    color: #000000;
-    font-size: large;
+.rounded-image {
+    border-radius: 10px;
 }
 
 @media (min-width: 767px) {
 
     header {
         position: relative;
-        background-color: #f8d3e2;
+        background-color: #ffd1e0;
         width: 100%;
         height: 140px;
         float: left;
@@ -170,9 +178,19 @@ footer {
         position: absolute;
         float: right;
         margin: 20px;
+        margin-right: 250px;
+        max-width: 960px;
+        width: 40%;
+        flex-direction: row;
+        border-radius: 10px;
+    }
+
+    #center {
         max-width: 960px;
         width: 100%;
-        flex-direction: row;
+        background-color: #bb53a430;
+        margin-bottom: 25px;
+        margin-top: 35px;
     }
 
     #tablic {
@@ -180,10 +198,11 @@ footer {
         max-width: 960px;
         width: 100%;
         margin: auto;
+        background-color: #bb53a430;
         margin-top: 25px;
         margin-bottom: 25px;
         border: 1px solid grey;
-        color: #fff;
+        color: #000000;
         text-align: center;
     }
 
@@ -191,24 +210,14 @@ footer {
         max-width: 960px;
         width: 100%;
         margin: auto;
-        background-color: #ee629a;
+        background-color: #bb53a430;
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
-    #center {
-        max-width: 960px;
-        width: 80%;
-        margin: auto;
-        background-color: #f8d3e2;
-        margin-bottom: 25px;
-        margin-top: 25px;
-        order: 1;
-    }
-
     /* имя сайта*/
     .name {
-        margin-top: 56px;
+        margin-top: 30px;
         float: left;
         color: #000000;
         font-size: xx-large;
