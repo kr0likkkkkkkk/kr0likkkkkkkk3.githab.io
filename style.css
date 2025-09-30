@@ -213,12 +213,7 @@ footer {
     }
 
     #order {
-        display: block;
-        section-table {order: 2;}
-        section-links {order: 1;}
-        section-form {order: 3;}
-        section-cats {order: 4;}
-        
+        display: block;  
     }
 
     .name {
