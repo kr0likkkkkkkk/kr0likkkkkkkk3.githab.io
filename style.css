@@ -17,7 +17,7 @@ header {
     width: 100%;
     height: 100px;
     margin-bottom: 25px;
-    margin-top: 60px;
+    margin-top: 25px;
     top: 0;
     position: relative;
 }
@@ -32,7 +32,7 @@ header {
     width: 100%;
     margin: auto;
     background-color: #bb53a430;
-    margin-top: 70px;
+    margin-top: 85px;
     margin-bottom: 10px;
     flex: 1;
 }
@@ -255,13 +255,5 @@ footer {
 
     #order {
         display: block;
-    }
-    
-    #order .tablic {
-        order: 0;
-    }
-    
-    #order #center {
-        order: 0;
     }
 }
